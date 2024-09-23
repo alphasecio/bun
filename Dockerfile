@@ -7,12 +7,9 @@ WORKDIR /usr/src/app
 # Cache dependencies (optional but recommended)
 FROM oven/bun:latest AS install
 
-COPY package.json bun.lockb ./
+COPY package.json ./
 
 RUN bun install --frozen-lockfile
-
-# Copy application code
-COPY . .
 
 # Expose port
 EXPOSE 3000
