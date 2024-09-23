@@ -11,8 +11,11 @@ COPY package.json ./
 
 RUN bun install --frozen-lockfile
 
+# Copy application code
+COPY . .
+
 # Expose port
 EXPOSE 3000
 
 # Run the app using Bun
-CMD ["bun", "run", "index.ts"]
+CMD ["bun", "run", "start"]
