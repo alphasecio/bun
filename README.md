@@ -10,3 +10,8 @@ A minimal Bun web application.
 
 ### Running the application
 `bun run index.ts`
+
+### Deploying the application
+Click the button below to deploy the app directly on Railway.
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/PnQkK-?referralCode=alphasec)
