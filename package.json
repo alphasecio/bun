@@ -2,7 +2,7 @@
   "name": "bun-app",
   "version": "1.0.0",
   "description": "A minimal Bun web application.",
-  "main": "routes/index.ts",
+  "main": "index.ts",
   "author": {
     "name": "alphasec",
     "url": "https://alphasec.io"
@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "start": "bun run routes/index.ts"
+    "start": "bun run index.ts"
   }
 }
